@@ -8,7 +8,7 @@ import 'package:stm_schedules/models.dart';
 //const String apiAddress = "https://good-shoes-smash.loca.lt";
 //const String apiAddress = "http://localhost:5211";
 const String apiAddress =
-    "stm-api-ewbmfaabc5b3ehc4.canadaeast-01.azurewebsites.net";
+    "https://stm-api-ewbmfaabc5b3ehc4.canadaeast-01.azurewebsites.net";
 
 Future<List<StmRoute>> fetchRoutes() async {
   final response = await http.get(Uri.parse('$apiAddress/routes'));
